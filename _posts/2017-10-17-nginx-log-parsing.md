@@ -6,9 +6,9 @@ title: Parsing logs with grep, awk, sed, and friends.
 This post is about parsing an nginx log file to get information about the number of IPs that connected, frequency of certain HTTP requests and responses, etc. Basically, these are notes on grep, awk, sed, sort, and uniq.
 
 Have to extract and process a bunch of info from an nginx log file, so I'm gonna learn a bit of awk.
-(awk tutorial)[http://www.hcs.harvard.edu/~dholland/computers/awk.html]
+[awk tutorial](http://www.hcs.harvard.edu/~dholland/computers/awk.html)
 
-The access log uses the default combined format, as described (here)[https://www.nginx.com/resources/admin-guide/logging-and-monitoring/].
+The access log uses the default combined format, as described [here](https://www.nginx.com/resources/admin-guide/logging-and-monitoring/).
 ```
 log_format compression '$remote_addr - $remote_user [$time_local] '
                            '"$request" $status $body_bytes_sent '
