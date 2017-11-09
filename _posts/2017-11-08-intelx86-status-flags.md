@@ -5,6 +5,8 @@ title: Intel x86 Assembly Status Flags
 
 Behold, a table showing how general purpose Intel x86 assembly instructions affect the status flags.
 
+Note: My blog theme currently makes tables ugly as shit, so I recommend you look at this in the github repository browser. The markdown table looks right there.
+
 INSTRUCTION | CF | OF | SF | ZF | PF | AF | NOTES
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 MOV | u | u | u | u | u | u | u = unaffected
