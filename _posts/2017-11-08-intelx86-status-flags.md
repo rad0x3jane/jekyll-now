@@ -6,7 +6,7 @@ title: Intel x86 Assembly Status Flags
 Behold, a table showing how general purpose Intel x86 assembly instructions affect the status flags.
 
 INSTRUCTION | CF | OF | SF | ZF | PF | AF | NOTES
---- | --- | --- | --- | --- | --- | --- | ---
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 MOV | u | u | u | u | u | u | u = unaffected
 CMOVcc | u | u | u | u | u | u | 
 XCHG | u | u | u | u | u | u | 
